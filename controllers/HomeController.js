@@ -1,12 +1,12 @@
 /*=
-	Main
+	Home
 */
 (function($){
 	'use strict';
 	angular.module('app')
-	.controller('MainController', MainCtrl);
+	.controller('HomeController', HomeCtrl);
 
-	function MainCtrl($scope){
+	function HomeCtrl($scope){
 		$scope.section = "Home";
 		console.log('Home');
 	}
