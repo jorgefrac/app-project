@@ -1,7 +1,9 @@
 (function($) {
 	'use strict';
 	angular.module('app')
-	.config(function($routeProvider) {
+	.config(config);
+
+	function config($routeProvider) {
 		$routeProvider
 		.when("/", {
 			templateUrl : "views/home.html",
@@ -11,10 +13,10 @@
 			templateUrl : "views/about.html",
 			controller: "AboutController"
 		})
-		.when("/users", {
-			templateUrl : "views/users.html",
-			controller: "UsersController"
+		.when("/user", {
+			templateUrl : "views/user.html",
+			controller: "UserController"
 		});
-		//.otherwise({ redirectTo: '/' });
-	});
+	}
 })();
+

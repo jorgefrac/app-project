@@ -1,5 +1,3 @@
 (function($){
 	var app = angular.module('app',['ngResource','ngRoute']);
 })();
-
-

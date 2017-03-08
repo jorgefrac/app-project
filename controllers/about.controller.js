@@ -4,9 +4,9 @@
 (function($){
 	'use strict';
 	angular.module('app')
-	.controller('AboutController', AboutCtrl);
+	.controller('AboutController', About);
 
-	function AboutCtrl($scope){
+	function About($scope){
 		$scope.section = "About";
 		console.log('About');
 	}

@@ -4,9 +4,9 @@
 (function($){
 	'use strict';
 	angular.module('app')
-	.controller('UsersController', UsersCtrl);
+	.controller('UserController', User);
 
-	function UsersCtrl($scope){
+	function User($scope){
 		$scope.section = "Users";
 		console.log('Users');
 	}
