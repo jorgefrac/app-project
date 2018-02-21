@@ -1,2 +1,10 @@
 .DS_Store
+readme.html
+
 prepros-6.config
+
+package.json
+package-lock.json
+
+node_modules/*
+

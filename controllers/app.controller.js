@@ -1,6 +1,7 @@
 /*=
 	App
 */
+
 (function($){
 	'use strict';
 	angular.module('app')
@@ -10,4 +11,5 @@
 		$scope.section = "Welcome";
 		console.log('app');
 	}
+
 })();
